@@ -1,0 +1,15 @@
+{
+  "title": "Dependencies should not have \"system\" scope",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "maven",
+    "lock-in"
+  ],
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-3422"
+}

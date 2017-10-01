@@ -1,0 +1,19 @@
+{
+  "title": "\"Serializable\" classes should have a version id",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "serialization",
+    "cert",
+    "pitfall"
+  ],
+  "standards": [
+    "CERT"
+  ],
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-2057"
+}

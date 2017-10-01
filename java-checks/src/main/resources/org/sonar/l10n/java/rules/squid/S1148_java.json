@@ -1,0 +1,14 @@
+{
+  "title": "Throwable.printStackTrace(...) should not be called",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "error-handling"
+  ],
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1148"
+}

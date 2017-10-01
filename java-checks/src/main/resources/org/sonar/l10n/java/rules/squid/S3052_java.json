@@ -1,0 +1,15 @@
+{
+  "title": "Fields should not be initialized to default values",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "convention",
+    "finding"
+  ],
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-3052"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "\"Lock\" objects should not be \"synchronized\"",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "multi-threading",
+    "cert",
+    "clumsy"
+  ],
+  "standards": [
+    "CERT"
+  ],
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2442"
+}

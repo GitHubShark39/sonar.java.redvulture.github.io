@@ -1,0 +1,19 @@
+{
+  "title": "\"public static\" fields should be constant",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "cert"
+  ],
+  "standards": [
+    "CWE",
+    "CERT"
+  ],
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1444"
+}

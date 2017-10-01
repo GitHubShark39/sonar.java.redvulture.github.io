@@ -1,0 +1,14 @@
+{
+  "title": "JUnit assertions should not be used in \"run\" methods",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "tests"
+  ],
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-2186"
+}

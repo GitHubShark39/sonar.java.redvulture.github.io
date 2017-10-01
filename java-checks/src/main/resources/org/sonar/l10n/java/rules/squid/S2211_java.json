@@ -1,0 +1,15 @@
+{
+  "title": "Types should be used in lambdas",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "convention",
+    "java8"
+  ],
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2211"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "\"@Deprecated\" code should not be used",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "cwe",
+    "obsolete",
+    "cert"
+  ],
+  "standards": [
+    "CWE",
+    "CERT"
+  ],
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1874"
+}

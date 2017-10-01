@@ -1,0 +1,15 @@
+{
+  "title": "\"switch\" statements should not contain non-case labels",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "misra",
+    "suspicious"
+  ],
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-1219"
+}

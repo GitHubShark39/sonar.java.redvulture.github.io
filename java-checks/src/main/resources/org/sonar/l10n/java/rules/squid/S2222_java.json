@@ -1,0 +1,18 @@
+{
+  "title": "Locks should be released",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    "cwe",
+    "multi-threading"
+  ],
+  "standards": [
+    "CWE"
+  ],
+  "defaultSeverity": "Critical",
+  "ruleSpecification": "RSPEC-2222"
+}

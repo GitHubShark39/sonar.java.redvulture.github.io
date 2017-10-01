@@ -1,0 +1,10 @@
+{
+  "title": "Track comments matching a regular expression",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "tags": [
+    
+  ],
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-124"
+}

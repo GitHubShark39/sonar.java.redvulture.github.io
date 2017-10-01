@@ -1,0 +1,14 @@
+{
+  "title": "Constructors should not be used to instantiate \"String\" and primitive-wrapper classes",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "performance"
+  ],
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2129"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "\"==\" and \"!=\" should not be used when \"equals\" is overridden",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "cwe",
+    "cert",
+    "suspicious"
+  ],
+  "standards": [
+    "CWE",
+    "CERT"
+  ],
+  "defaultSeverity": "Minor",
+  "ruleSpecification": "RSPEC-1698"
+}

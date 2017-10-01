@@ -1,0 +1,14 @@
+{
+  "title": "\"Externalizable\" classes should have no-arguments constructors",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "20min"
+  },
+  "tags": [
+    
+  ],
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-2060"
+}

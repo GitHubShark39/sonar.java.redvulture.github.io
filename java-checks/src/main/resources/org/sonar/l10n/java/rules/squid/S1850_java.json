@@ -1,0 +1,14 @@
+{
+  "title": "\"instanceof\" operators that always return \"true\" or \"false\" should be removed",
+  "type": "BUG",
+  "status": "deprecated",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    
+  ],
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-1850"
+}

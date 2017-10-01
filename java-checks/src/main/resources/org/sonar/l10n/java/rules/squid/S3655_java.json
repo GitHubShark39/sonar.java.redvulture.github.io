@@ -1,0 +1,17 @@
+{
+  "title": "Optional value should only be accessed after calling isPresent()",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "cwe"
+  ],
+  "standards": [
+    "CWE"
+  ],
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-3655"
+}

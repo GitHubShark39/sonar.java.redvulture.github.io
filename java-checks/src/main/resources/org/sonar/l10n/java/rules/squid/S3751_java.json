@@ -1,0 +1,14 @@
+{
+  "title": "\"@RequestMapping\" methods should be \"public\"",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "2min"
+  },
+  "tags": [
+    "spring"
+  ],
+  "defaultSeverity": "Blocker",
+  "ruleSpecification": "RSPEC-3751"
+}
